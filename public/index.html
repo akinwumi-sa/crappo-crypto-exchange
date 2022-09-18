@@ -1,0 +1,750 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CRAPPO - crypto exchange</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  </head>
+  <body class="bg-main font-titillium text-main-text mx-auto">
+    <header
+      class="flex justify-between items-center h-20 lg:mx-8 lg:flex lg:flex-row lg:justify-between max-w-[640px] mx-auto lg:max-w-full"
+    >
+      <div class="flex justify-between items-center h-10 w-28">
+        <img class="h-10 w-10 font-semibold text-lg" src="img/Logo.png" />
+        <label>CRAPPO</label>
+      </div>
+      <div class="lg:hidden">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 24 24"
+          fill="currentColor"
+          class="nav-menu-btn w-8 h-8"
+        >
+          <path
+            fill-rule="evenodd"
+            d="M3 6.75A.75.75 0 013.75 6h16.5a.75.75 0 010 1.5H3.75A.75.75 0 013 6.75zM3 12a.75.75 0 01.75-.75h16.5a.75.75 0 010 1.5H3.75A.75.75 0 013 12zm0 5.25a.75.75 0 01.75-.75h16.5a.75.75 0 010 1.5H3.75a.75.75 0 01-.75-.75z"
+            clip-rule="evenodd"
+          />
+        </svg>
+      </div>
+      <div
+        class="nav-menu lg:static lg:flex-row lg:h-inherit lg:w-[500px] absolute flex h-full w-full top-0 -left-full flex-col justify-center items-center bg-main z-10 transition-all ease-in duration-400"
+      >
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 24 24"
+          fill="currentColor"
+          class="lg:hidden close w-8 h-8 text-main-text font-semibold absolute top-6 right-6"
+        >
+          <path
+            fill-rule="evenodd"
+            d="M5.47 5.47a.75.75 0 011.06 0L12 10.94l5.47-5.47a.75.75 0 111.06 1.06L13.06 12l5.47 5.47a.75.75 0 11-1.06 1.06L12 13.06l-5.47 5.47a.75.75 0 01-1.06-1.06L10.94 12 5.47 6.53a.75.75 0 010-1.06z"
+            clip-rule="evenodd"
+          />
+        </svg>
+        <a
+          class="lg:text-base lg:mx-2 lg:hover:text-sky hover:text-sky my-3 text-3xl"
+          href="#"
+          >Products</a
+        >
+        <a
+          class="lg:text-base lg:mx-2 lg:hover:text-sky hover:text-sky my-3 text-3xl"
+          href="#"
+          >features</a
+        >
+        <a
+          class="lg:text-base lg:mx-2 lg:hover:text-sky hover:text-sky my-3 text-3xl"
+          href="#"
+          >About</a
+        >
+        <a
+          class="lg:text-base lg:mx-2 lg:hover:text-sky hover:text-sky my-3 text-3xl"
+          href="#"
+          >Contact</a
+        >
+        <div class="flex justify-between items-center">
+          <a
+            class="lg:text-base lg:mx-2 lg:hover:text-sky hover:text-sky my-3 text-3xl mx-2 px-4 border-r-2 border-gray-300"
+            href="#"
+            >login</a
+          >
+          <a
+            class="lg:text-base lg:mx-2 lg:hover:text-sky lg:hover:bg-main-text hover:text-sky hover:bg-main-text my-3 text-3xl mx-2 py-2 lg:py-1 px-4 bg-sky rounded-2xl"
+            href="#"
+            >Register</a
+          >
+        </div>
+      </div>
+    </header>
+    <div class="max-w-[600px] mx-auto lg:max-w-full">
+      <div class="flex flex-col lg:flex-row lg:justify-between mx-4 lg:mx-8">
+        <div class="flex flex-col justify-around lg:h-[250px] my-auto">
+          <div
+            class="flex items-center bg-main-text bg-opacity-10 rounded-3xl h-6 max-w-[300px] text-sm py-2 lg:py-4"
+          >
+            <a
+              class="bg-main-text text-center text-black w-[100px] rounded-3xl mr-2 lg:py-1"
+              data-aos="zoom-in-left"
+              data-aos-duration="1000"
+              >70% SAVE</a
+            >
+            <a
+              class="text-sm font-thin"
+              data-aos="zoom-in-right"
+              data-aos-duration="500"
+              >For the best black friday deals</a
+            >
+          </div>
+          <div
+            class="my-6 max-w-[500px]"
+            data-aos="fade-left"
+            data-aos-duration="1000"
+          >
+            <div class="text-4xl lg:text-6xl font-semibold capitalize mb-2">
+              fastest & secure platform to invest in crypto
+            </div>
+            <div class="text-sm font-thin">
+              buy and sell crypotocurrencies by trusted 10M wallets, in over
+              $30m transactions
+            </div>
+          </div>
+          <div
+            class="flex items-center justify-around bg-sky max-w-[200px] h-9 lg:py-2 rounded-3xl px-4"
+          >
+            <a
+              class="text-lg mr-2"
+              data-aos="zoom-in-left"
+              data-aos-duration="1000"
+            >
+              Try For Free
+            </a>
+            <a
+              class="flex items-center justify-center w-7 h-7 rounded-full bg-main-text"
+              data-aos="zoom-in-right"
+              data-aos-duration="1000"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 24 24"
+                fill="currentColor"
+                class="w-4 h-4 text-sky"
+              >
+                <path
+                  fill-rule="evenodd"
+                  d="M16.28 11.47a.75.75 0 010 1.06l-7.5 7.5a.75.75 0 01-1.06-1.06L14.69 12 7.72 5.03a.75.75 0 011.06-1.06l7.5 7.5z"
+                  clip-rule="evenodd"
+                />
+              </svg>
+            </a>
+          </div>
+        </div>
+        <div class="mb-4 lg:mb-0">
+          <img
+            class="lg:h-[90%] lg:w-[90%]"
+            src="img/Illustration.png"
+            data-aos="fade-down-left"
+            data-aos-duration="500"
+          />
+        </div>
+      </div>
+      <div class="flex flex-col justify-around my-6 lg:mx-8">
+        <div
+          class="flex flex-col justify-around lg:flex-row"
+          data-aos="fade-up"
+          data-aos-duration="1000"
+        >
+          <div class="flex justify-around h-22 my-4">
+            <div
+              class="flex justify-center items-center bg-main-text bg-opacity-10 h-24 lg:h-20 lg:w-20 lg:mr-4 w-24 rounded-full"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 24 24"
+                fill="currentColor"
+                class="w-8 h-8 text-sky"
+              >
+                <path
+                  d="M18.375 2.25c-1.035 0-1.875.84-1.875 1.875v15.75c0 1.035.84 1.875 1.875 1.875h.75c1.035 0 1.875-.84 1.875-1.875V4.125c0-1.036-.84-1.875-1.875-1.875h-.75zM9.75 8.625c0-1.036.84-1.875 1.875-1.875h.75c1.036 0 1.875.84 1.875 1.875v11.25c0 1.035-.84 1.875-1.875 1.875h-.75a1.875 1.875 0 01-1.875-1.875V8.625zM3 13.125c0-1.036.84-1.875 1.875-1.875h.75c1.036 0 1.875.84 1.875 1.875v6.75c0 1.035-.84 1.875-1.875 1.875h-.75A1.875 1.875 0 013 19.875v-6.75z"
+                />
+              </svg>
+            </div>
+            <div class="flex flex-col justify-center">
+              <div class="text-3xl lg:text-2xl">$30B</div>
+              <div class="text-gray-300">Digital Currency Exchange</div>
+            </div>
+          </div>
+          <div
+            class="flex justify-around h-22 my-4"
+            data-aos="fade-up"
+            data-aos-duration="1000"
+          >
+            <div
+              class="flex justify-center items-center bg-main-text bg-opacity-10 h-24 w-24 lg:h-20 lg:w-20 lg:mr-4 rounded-full"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 24 24"
+                fill="currentColor"
+                class="w-8 h-8 text-sky"
+              >
+                <path
+                  fill-rule="evenodd"
+                  d="M7.5 6a4.5 4.5 0 119 0 4.5 4.5 0 01-9 0zM3.751 20.105a8.25 8.25 0 0116.498 0 .75.75 0 01-.437.695A18.683 18.683 0 0112 22.5c-2.786 0-5.433-.608-7.812-1.7a.75.75 0 01-.437-.695z"
+                  clip-rule="evenodd"
+                />
+              </svg>
+            </div>
+            <div class="flex flex-col justify-center">
+              <div class="text-3xl lg:text-2xl">190+</div>
+              <div class="text-gray-300">Countries Around The World</div>
+            </div>
+          </div>
+          <div
+            class="flex justify-around h-22 my-4"
+            data-aos="fade-up"
+            data-aos-duration="1000"
+          >
+            <div
+              class="flex justify-center items-center bg-main-text bg-opacity-10 h-24 w-24 lg:h-20 lg:w-20 lg:mr-4 rounded-full"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 24 24"
+                fill="currentColor"
+                class="w-8 h-8 text-sky"
+              >
+                <path
+                  fill-rule="evenodd"
+                  d="M12 2.25c-5.385 0-9.75 4.365-9.75 9.75s4.365 9.75 9.75 9.75 9.75-4.365 9.75-9.75S17.385 2.25 12 2.25zM8.547 4.505a8.25 8.25 0 1011.672 8.214l-.46-.46a2.252 2.252 0 01-.422-.586l-1.08-2.16a.414.414 0 00-.663-.107.827.827 0 01-.812.21l-1.273-.363a.89.89 0 00-.738 1.595l.587.39c.59.395.674 1.23.172 1.732l-.2.2c-.211.212-.33.498-.33.796v.41c0 .409-.11.809-.32 1.158l-1.315 2.191a2.11 2.11 0 01-1.81 1.025 1.055 1.055 0 01-1.055-1.055v-1.172c0-.92-.56-1.747-1.414-2.089l-.654-.261a2.25 2.25 0 01-1.384-2.46l.007-.042a2.25 2.25 0 01.29-.787l.09-.15a2.25 2.25 0 012.37-1.048l1.178.236a1.125 1.125 0 001.302-.795l.208-.73a1.125 1.125 0 00-.578-1.315l-.665-.332-.091.091a2.25 2.25 0 01-1.591.659h-.18c-.249 0-.487.1-.662.274a.931.931 0 01-1.458-1.137l1.279-2.132z"
+                  clip-rule="evenodd"
+                />
+              </svg>
+            </div>
+            <div class="flex flex-col justify-center">
+              <div class="text-3xl lg:text-2xl">$10M</div>
+              <div class="text-gray-300">Trusted Wallet Investors</div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="mx-4 my-4 lg:flex lg:flex-row-reverse lg:items-center lg:mx-8 lg:my-4"
+      >
+        <div
+          class="flex flex-col justify-around h-64 lg:h-[200px] lg:w-6/12 lg:justify-between"
+          data-aos="fade-up"
+          data-aos-duration="500"
+        >
+          <div class="text-4xl my-2">Why you should choose CRAPPO</div>
+          <div class="text-gray-300 text-lg my-2">
+            Experience the next generation cryptocurrency platform. No financial
+            borders, extra fees, and fake reviews
+          </div>
+          <div class="w-[150px] bg-sky py-2 text-center rounded-3xl my-2">
+            Learn More
+          </div>
+        </div>
+        <div>
+          <img
+            class="mb-4"
+            data-aos="fade-down-right"
+            data-aos="fade-up"
+            data-aos-duration="1000"
+            src="img/Illustrations.png"
+          />
+        </div>
+      </div>
+      <div
+        class="flex flex-col justify-between items-center relative mt-8 lg:my-12 lg:mx-8"
+      >
+        <div class="capitalize text-4xl lg:text-2xl text-center">
+          Check how much you can earn
+        </div>
+        <div class="text-base text-gray-300 text-center font-thin my-4">
+          Let’s check your hash rate to see how much you will earn today,
+          Exercitation veniam consequat sunt nostrud amet.
+        </div>
+        <div
+          class="bg-main-text text-black flex flex-col justify-between lg:w-[900px] lg:px-12 mx-4 px-4 mt-4 rounded-2xl z-30"
+          data-aos="flip-left"
+          data-aos-duration="2000"
+        >
+          <div>
+            <form
+              class="flex flex-col lg:flex-row w-12/12 justify-between my-4"
+            >
+              <input
+                class="text-black block my-4 border-b-2 border-gray-300 border-solid placeholder-text-2xl py-2 px-4"
+                type="text"
+                placeholder="Enter your hash rate"
+              />
+              <select class="block text-2xl my-4">
+                <option>TH/s</option>
+                <option>H/s</option>
+                <option>KH/s</option>
+                <option>MH/s</option>
+                <option>GH/s</option>
+              </select>
+              <input
+                class="text-main-text text-lg w-28 bg-sky h-10 block my-4 rounded-3xl"
+                type="submit"
+                value="Calculate"
+              />
+            </form>
+          </div>
+          <div class="text-sky text-2xl my-2">ESTIMATED 24 HOUR REVENUE:</div>
+          <div class="text-black text-3xl my-2 font-semibold">
+            0.055 130 59 ETH
+            <span class="text-sky text-3xl my-2 font-semibold">($1275)</span>
+          </div>
+          <div class="text-base mt-2 pb-8">
+            Revenue willl change based on mining difficulty and Ethereum price
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="highlight -mt-36 bg-[#f1f1f5] max-w-full pb-8 lg:px-8 z-10">
+      <div
+        class="pt-48 text-black font-semibold text-center text-3xl mb-16 lg:min-w-[450px] mx-auto px-1"
+      >
+        Trade Securely And Market The High Growth Cryptocurrencies.
+      </div>
+      <div class="lg:flex lg:justify-around">
+        <div
+          class="btc btc-div cursor-pointer active flex flex-col justify-around items-center bg-[#2B076E] text-main-text h-[27rem] mx-4 lg:w-[350px] lg:mx-6 my-8 py-4 px-4 rounded-2xl"
+        >
+          <img class="btc" src="img/bitcoinor.png" />
+          <div class="btc text-center text-3xl font-semibold">
+            Bitcoin<span class="text-gray-300 text-base"> BTC</span>
+          </div>
+          <div class="btc text-center">
+            Digital currency in which a record of transactions is maintained.
+          </div>
+          <div class="btc btc-start-div flex bg-sky py-4 px-6 rounded-3xl">
+            <div class="btc font-semibold">Start mining</div>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 24 24"
+              fill="currentColor"
+              class="arrow w-6 h-6 text-main-text mx-auto"
+            >
+              <path
+                fill-rule="evenodd"
+                d="M16.28 11.47a.75.75 0 010 1.06l-7.5 7.5a.75.75 0 01-1.06-1.06L14.69 12 7.72 5.03a.75.75 0 011.06-1.06l7.5 7.5z"
+                clip-rule="evenodd"
+              />
+            </svg>
+          </div>
+        </div>
+        <div
+          class="eth eth-div cursor-pointer flex flex-col justify-around items-center bg-main-text text-black h-[27rem] mx-4 lg:w-[350px] lg:mx-6 my-8 py-4 px-4 rounded-2xl"
+        >
+          <img class="eth" src="img/ethereum.png" />
+          <div class="eth text-center text-3xl font-semibold">
+            Ethereum<span class="text-gray-300 text-base"> ETH</span>
+          </div>
+          <div class="eth text-center">
+            Blockchain technology to create and run decentralized digital
+            applications.
+          </div>
+          <div class="eth eth-start-div flex">
+            <div class="hidden font-semibold">Start mining</div>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 24 24"
+              fill="currentColor"
+              class="arrow w-6 h-6 text-sky mx-auto"
+            >
+              <path
+                fill-rule="evenodd"
+                d="M16.28 11.47a.75.75 0 010 1.06l-7.5 7.5a.75.75 0 01-1.06-1.06L14.69 12 7.72 5.03a.75.75 0 011.06-1.06l7.5 7.5z"
+                clip-rule="evenodd"
+              />
+            </svg>
+          </div>
+        </div>
+        <div
+          class="ltc ltc-div cursor-pointer flex flex-col justify-around items-center bg-main-text text-black h-[27rem] lg:w-[350px] lg:mx-6 mx-4 my-8 py-4 px-4 rounded-2xl"
+        >
+          <img class="ltc" src="img/lite.png" />
+          <div class="ltc text-center text-3xl font-semibold">
+            Litecoin<span class="text-gray-300 text-base"> LTC</span>
+          </div>
+          <div class="ltc text-center">
+            Cryptocurrency that enables instant payments to anyone in the world.
+          </div>
+          <div class="ltc ltc-start-div flex">
+            <div class="hidden font-semibold">Start mining</div>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 24 24"
+              fill="currentColor"
+              class="arrow w-6 h-6 text-sky mx-auto"
+            >
+              <path
+                fill-rule="evenodd"
+                d="M16.28 11.47a.75.75 0 010 1.06l-7.5 7.5a.75.75 0 01-1.06-1.06L14.69 12 7.72 5.03a.75.75 0 011.06-1.06l7.5 7.5z"
+                clip-rule="evenodd"
+              />
+            </svg>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="max-w-[600px] mx-auto lg:max-w-full">
+      <div class="mx-4 lg:mx-8">
+        <div
+          class="text-3xl text-center my-8 py-4"
+          data-aos="zoom-in"
+          data-aos-duration="500"
+        >
+          Market Sentiments, Portfolio, And Run The Infrastructure Of Your
+          Choice
+        </div>
+        <div
+          class="flex flex-col lg:flex-row lg:justify-between lg:items-center my-8"
+        >
+          <div
+            class="flex flex-col lg:w-[45%] lg:justify-between justify-around h-48"
+            data-aos="zoom-in"
+            data-aos-duration="1050"
+          >
+            <div class="text-2xl my-2">Invest Smart</div>
+            <div class="text-gray-300 my-2">
+              Get full statistic information about the behaviour of buyers and
+              sellers will help you to make the decision.
+            </div>
+            <div class="w-2/5 bg-sky py-2 text-center rounded-3xl my-2">
+              Learn more
+            </div>
+          </div>
+          <div
+            class="my-4 lg:w-[45%]"
+            data-aos="zoom-in"
+            data-aos-duration="1000"
+          >
+            <img src="img/Chart.png" />
+          </div>
+        </div>
+        <div
+          class="flex flex-col lg:flex-row-reverse lg:justify-between lg:items-center my-8"
+        >
+          <div
+            class="flex flex-col lg:w-[45%] justify-around h-48"
+            data-aos="zoom-in"
+            data-aos-duration="1000"
+          >
+            <div class="text-2xl my-2">Detailed Statistics</div>
+            <div class="text-gray-300 my-2">
+              View all mining related information in realtime, at any point at
+              any location and decide which polls you want to mine in.
+            </div>
+            <div class="w-2/5 bg-sky py-2 text-center rounded-3xl my-2">
+              Learn more
+            </div>
+          </div>
+          <div
+            class="my-4 lg:w-[45%]"
+            data-aos="zoom-in"
+            data-aos-duration="1000"
+          >
+            <img src="img/Statistic.png" />
+          </div>
+        </div>
+        <div
+          class="flex flex-col lg:flex-row lg:justify-between lg:items-center my-8"
+        >
+          <div
+            class="flex flex-col lg:w-1/2 lg:w-[45%] justify-around h-48"
+            data-aos="zoom-in"
+            data-aos-duration="1000"
+          >
+            <div class="text-2xl my-2">
+              Grow Your Profit And Track Your Investments
+            </div>
+            <div class="text-gray-300 my-2">
+              Use advanced analytical tools. Clear TradingView charts let you
+              track current and historical profit investments.
+            </div>
+            <div class="w-2/5 bg-sky py-2 text-center rounded-3xl mt-2 mb-4">
+              Learn more
+            </div>
+          </div>
+          <div
+            class="my-4 lg:w-[45%]"
+            data-aos="zoom-in"
+            data-aos-duration="1000"
+          >
+            <img src="img/Table.png" />
+          </div>
+        </div>
+      </div>
+      <div
+        class="relative flex flex-col justify-around bg-sky lg:flex-row lg:justify-between lg:items-center rounded-2xl h-60 px-4 py-2 mx-4 lg:my-16 lg:mx-8"
+        data-aos="zoom-in"
+        data-aos-duration="500"
+      >
+        <div class="lg:max-w-[400px] mx-4">
+          <div class="text-2xl">Start Mining Now</div>
+          <div class="text-sm">
+            Join now with CRAPPO to get the latest news and start mining now.
+          </div>
+        </div>
+        <div class="border-b-2 lg:w-1/2 border-main-text border-solid mx-4">
+          <input
+            class="bg-transparent placeholder-main-text placeholder-opacity-50 px-2 py-2"
+            type="text"
+            placeholder="enter message"
+          />
+        </div>
+        <div
+          class="w-4/12 lg:w-[150px] bg-main-text py-2 text-black text-center rounded-3xl mt-2 self-center mx-4"
+        >
+          <a href="">Subscribe</a>
+        </div>
+        <div>
+          <img class="absolute right-0 bottom-0" src="img/btc-vector.png" />
+        </div>
+        <div>
+          <img class="absolute top-0 left-0" src="img/eth-vector.png" />
+        </div>
+      </div>
+      <footer class="mx-4 lg:mx-8">
+        <div class="flex flex-col lg:flex lg:flex-row lg:justify-between">
+          <div
+            class="flex justify-between items-center self-center lg:self-start h-10 w-28 my-4 lg:mt-[53px] mt-16"
+          >
+            <img
+              class="h-10 w-10 lg:h-12 lg:w-12 font-semibold text-lg lg:text-2xl"
+              src="img/Logo.png"
+            />
+            <label class="lg:text-xl lg:ml-4">CRAPPO</label>
+          </div>
+          <div
+            class="flex flex-col justify-between items-center my-8 text-center lg:text-left lg:items-start"
+          >
+            <div class="text-2xl my-6">Quick Links</div>
+            <div class="flex flex-col text-gray-300">
+              <a class="hover:text-sky my-2" href="#">Home</a>
+              <a class="hover:text-sky my-2" href="#">Products</a>
+              <a class="hover:text-sky my-2" href="#">About</a>
+              <a class="hover:text-sky my-2" href="#">Features</a>
+              <a class="hover:text-sky my-2" href="#">Contact</a>
+            </div>
+          </div>
+          <div
+            class="flex flex-col justify-between items-center my-8 text-center lg:text-left lg:items-start"
+          >
+            <div class="text-2xl my-6">Resources Links</div>
+            <div class="flex flex-col text-gray-300">
+              <a class="hover:text-sky my-2" href="#">Download Whitepaper</a>
+              <a class="hover:text-sky my-2" href="#">Smart Token</a>
+              <a class="hover:text-sky my-2" href="#">Blockchain Explore</a>
+              <a class="hover:text-sky my-2" href="#">Crypto API</a>
+              <a class="hover:text-sky my-2" href="#">Interest</a>
+            </div>
+          </div>
+          <div class="flex flex-col lg:mt-14 lg:text-lg">
+            <div class="self-center text-center">
+              We accept following payment systems
+            </div>
+            <div class="flex justify-around my-8">
+              <img src="img/Visa.png" />
+              <img src="img/Mastercard.png" />
+              <img src="img/Bitcoin.png" />
+            </div>
+          </div>
+        </div>
+        <div class="flex flex-col lg:flex-row lg:justify-between">
+          <div class="self-center">© 2022 CRAPPO. All rights reserved.</div>
+          <div
+            class="flex justify-around lg:justify-between lg:w-[200px] mx-6 my-8"
+          >
+            <a class="hover:text-sky" href="#"
+              ><svg
+                xmlns="http://www.w3.org/2000/svg"
+                x="0px"
+                y="0px"
+                width="24"
+                height="24"
+                viewBox="0 0 172 172"
+                style="fill: #000000"
+              >
+                <g
+                  fill="none"
+                  fill-rule="nonzero"
+                  stroke="none"
+                  stroke-width="1"
+                  stroke-linecap="butt"
+                  stroke-linejoin="miter"
+                  stroke-miterlimit="10"
+                  stroke-dasharray=""
+                  stroke-dashoffset="0"
+                  font-family="none"
+                  font-weight="none"
+                  font-size="none"
+                  text-anchor="none"
+                  style="mix-blend-mode: normal"
+                >
+                  <path d="M0,172v-172h172v172z" fill="none"></path>
+                  <g fill="#ffffff">
+                    <path
+                      d="M57.33333,21.5c-19.78717,0 -35.83333,16.04617 -35.83333,35.83333v57.33333c0,19.78717 16.04617,35.83333 35.83333,35.83333h57.33333c19.78717,0 35.83333,-16.04617 35.83333,-35.83333v-57.33333c0,-19.78717 -16.04617,-35.83333 -35.83333,-35.83333zM129,35.83333c3.956,0 7.16667,3.21067 7.16667,7.16667c0,3.956 -3.21067,7.16667 -7.16667,7.16667c-3.956,0 -7.16667,-3.21067 -7.16667,-7.16667c0,-3.956 3.21067,-7.16667 7.16667,-7.16667zM86,50.16667c19.78717,0 35.83333,16.04617 35.83333,35.83333c0,19.78717 -16.04617,35.83333 -35.83333,35.83333c-19.78717,0 -35.83333,-16.04617 -35.83333,-35.83333c0,-19.78717 16.04617,-35.83333 35.83333,-35.83333zM86,64.5c-11.87412,0 -21.5,9.62588 -21.5,21.5c0,11.87412 9.62588,21.5 21.5,21.5c11.87412,0 21.5,-9.62588 21.5,-21.5c0,-11.87412 -9.62588,-21.5 -21.5,-21.5z"
+                    ></path>
+                  </g>
+                </g>
+              </svg>
+            </a>
+            <a class="hover:text-sky" href="#">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                x="0px"
+                y="0px"
+                width="24"
+                height="24"
+                viewBox="0 0 172 172"
+                style="fill: #000000"
+              >
+                <g
+                  fill="none"
+                  fill-rule="nonzero"
+                  stroke="none"
+                  stroke-width="1"
+                  stroke-linecap="butt"
+                  stroke-linejoin="miter"
+                  stroke-miterlimit="10"
+                  stroke-dasharray=""
+                  stroke-dashoffset="0"
+                  font-family="none"
+                  font-weight="none"
+                  font-size="none"
+                  text-anchor="none"
+                  style="mix-blend-mode: normal"
+                >
+                  <path d="M0,172v-172h172v172z" fill="none"></path>
+                  <g fill="#ffffff">
+                    <path
+                      d="M157.66667,28.6595c-5.59,3.31817 -16.80583,7.84033 -23.39917,9.14467c-0.1935,0.05017 -0.35117,0.11467 -0.5375,0.16483c-5.8265,-5.74767 -13.81017,-9.3095 -22.64667,-9.3095c-17.80917,0 -32.25,14.44083 -32.25,32.25c0,0.93883 -0.07883,2.666 0,3.58333c-24.02983,0 -42.31917,-12.58467 -55.43417,-28.66667c-1.42617,3.58333 -2.04967,9.245 -2.04967,14.56267c0,10.0405 7.8475,19.90183 20.06667,26.015c-2.25033,0.5805 -4.73,0.99617 -7.31,0.99617c-4.16383,0 -8.57133,-1.0965 -12.60617,-4.42183c0,0.12183 0,0.2365 0,0.3655c0,14.03233 14.89233,23.5855 28.13633,26.24433c-2.6875,1.58383 -8.1055,1.7415 -10.75,1.7415c-1.86333,0 -8.45667,-0.85283 -10.21967,-1.1825c3.68367,11.5025 16.97067,17.96683 29.63417,18.19617c-9.90433,7.76867 -16.77717,10.64967 -37.05883,10.64967h-6.90867c12.814,8.213 29.1325,14.3405 45.48683,14.3405c53.24833,0 83.51317,-40.58483 83.51317,-78.8405c0,-0.61633 -0.01433,-1.90633 -0.03583,-3.2035c0,-0.129 0.03583,-0.25083 0.03583,-0.37983c0,-0.1935 -0.05733,-0.37983 -0.05733,-0.57333c-0.0215,-0.97467 -0.043,-1.88483 -0.0645,-2.35783c5.66167,-4.085 10.57083,-9.1805 14.45517,-14.9855c-5.19583,2.30767 -10.7715,3.85567 -16.62667,4.558c5.977,-3.58333 14.4695,-12.126 16.62667,-18.89133z"
+                    ></path>
+                  </g>
+                </g>
+              </svg>
+            </a>
+            <a class="hover:text-sky" href="#"
+              ><svg
+                xmlns="http://www.w3.org/2000/svg"
+                x="0px"
+                y="0px"
+                width="24"
+                height="24"
+                viewBox="0 0 172 172"
+                style="fill: #000000"
+              >
+                <g
+                  fill="none"
+                  fill-rule="nonzero"
+                  stroke="none"
+                  stroke-width="1"
+                  stroke-linecap="butt"
+                  stroke-linejoin="miter"
+                  stroke-miterlimit="10"
+                  stroke-dasharray=""
+                  stroke-dashoffset="0"
+                  font-family="none"
+                  font-weight="none"
+                  font-size="none"
+                  text-anchor="none"
+                  style="mix-blend-mode: normal"
+                >
+                  <path d="M0,172v-172h172v172z" fill="none"></path>
+                  <g fill="#ffffff">
+                    <path
+                      d="M154.671,44.333c-1.64833,-6.16333 -6.50733,-11.02233 -12.67067,-12.67067c-11.18,-2.99567 -56.00033,-2.99567 -56.00033,-2.99567c0,0 -44.82033,0 -56.00033,2.99567c-6.16333,1.64833 -11.02233,6.50733 -12.67067,12.67067c-2.99567,11.18 -2.99567,41.667 -2.99567,41.667c0,0 0,30.487 2.99567,41.667c1.64833,6.16333 6.50733,11.02233 12.67067,12.67067c11.18,2.99567 56.00033,2.99567 56.00033,2.99567c0,0 44.82033,0 56.00033,-2.99567c6.1705,-1.64833 11.02233,-6.50733 12.67067,-12.67067c2.99567,-11.18 2.99567,-41.667 2.99567,-41.667c0,0 0,-30.487 -2.99567,-41.667zM71.66667,110.82533v-49.65067l43,24.82533z"
+                    ></path>
+                  </g>
+                </g>
+              </svg>
+            </a>
+            <a class="hover:text-sky" href="#"
+              ><svg
+                xmlns="http://www.w3.org/2000/svg"
+                x="0px"
+                y="0px"
+                width="24"
+                height="24"
+                viewBox="0 0 172 172"
+                style="fill: #000000"
+              >
+                <g
+                  fill="none"
+                  fill-rule="nonzero"
+                  stroke="none"
+                  stroke-width="1"
+                  stroke-linecap="butt"
+                  stroke-linejoin="miter"
+                  stroke-miterlimit="10"
+                  stroke-dasharray=""
+                  stroke-dashoffset="0"
+                  font-family="none"
+                  font-weight="none"
+                  font-size="none"
+                  text-anchor="none"
+                  style="mix-blend-mode: normal"
+                >
+                  <path d="M0,172v-172h172v172z" fill="none"></path>
+                  <g fill="#ffffff">
+                    <path
+                      d="M136.7185,35.31733c-13.51633,-13.5235 -31.49033,-20.97683 -50.63967,-20.984c-39.45967,0 -71.5735,32.0995 -71.58783,71.55917c-0.00717,12.61333 3.2895,24.92567 9.55317,35.776l-9.71083,35.99817l37.50317,-8.86517c10.45617,5.70467 22.22383,8.7075 34.2065,8.71467h0.02867c39.4525,0 71.56633,-32.10667 71.58783,-71.55917c0.01433,-19.12783 -7.42467,-37.109 -20.941,-50.63967zM121.10233,111.47033c-1.49067,4.17817 -8.7935,8.20583 -12.07583,8.49967c-3.28233,0.301 -6.35683,1.4835 -21.46417,-4.472c-18.18183,-7.16667 -29.66283,-25.80717 -30.5515,-26.99683c-0.89583,-1.19683 -7.30283,-9.6965 -7.30283,-18.49717c0,-8.80067 4.6225,-13.12933 6.26367,-14.91383c1.64117,-1.79167 3.57617,-2.236 4.773,-2.236c1.18967,0 2.3865,0 3.42567,0.043c1.27567,0.05017 2.6875,0.11467 4.02767,3.08883c1.591,3.54033 5.06683,12.384 5.51117,13.27983c0.44433,0.89583 0.74533,1.94217 0.1505,3.13183c-0.59483,1.18967 -0.89583,1.935 -1.7845,2.98133c-0.89583,1.04633 -1.87767,2.32917 -2.68033,3.13183c-0.89583,0.88867 -1.8275,1.86333 -0.78833,3.64783c1.04633,1.79167 4.62967,7.64683 9.94733,12.384c6.837,6.09167 12.59183,7.9765 14.3835,8.8795c1.79167,0.89583 2.83083,0.74533 3.87717,-0.4515c1.04633,-1.18967 4.472,-5.21733 5.66167,-7.009c1.18967,-1.79167 2.3865,-1.49067 4.02767,-0.89583c1.64117,0.59483 10.43467,4.9235 12.21917,5.81933c1.79167,0.89583 2.98133,1.34017 3.42567,2.0855c0.44433,0.73817 0.44433,4.3215 -1.04633,8.49967z"
+                    ></path>
+                  </g>
+                </g>
+              </svg>
+            </a>
+            <a class="hover:text-sky" href="#"
+              ><svg
+                xmlns="http://www.w3.org/2000/svg"
+                x="0px"
+                y="0px"
+                width="24"
+                height="24"
+                viewBox="0 0 172 172"
+                style="fill: #000000"
+              >
+                <g
+                  fill="none"
+                  fill-rule="nonzero"
+                  stroke="none"
+                  stroke-width="1"
+                  stroke-linecap="butt"
+                  stroke-linejoin="miter"
+                  stroke-miterlimit="10"
+                  stroke-dasharray=""
+                  stroke-dashoffset="0"
+                  font-family="none"
+                  font-weight="none"
+                  font-size="none"
+                  text-anchor="none"
+                  style="mix-blend-mode: normal"
+                >
+                  <path d="M0,172v-172h172v172z" fill="none"></path>
+                  <g fill="#ffffff">
+                    <path
+                      d="M136.16667,21.5h-100.33333c-7.91917,0 -14.33333,6.41417 -14.33333,14.33333v100.33333c0,7.91917 6.41417,14.33333 14.33333,14.33333h100.33333c7.91917,0 14.33333,-6.41417 14.33333,-14.33333v-100.33333c0,-7.91917 -6.41417,-14.33333 -14.33333,-14.33333zM64.5,121.83333h-18.0815v-50.16667h18.0815zM55.14033,62.47183c-5.5255,0 -9.21633,-3.68367 -9.21633,-8.6c0,-4.91633 3.68367,-8.6 9.8255,-8.6c5.5255,0 9.21633,3.68367 9.21633,8.6c0,4.91633 -3.68367,8.6 -9.8255,8.6zM129,121.83333h-17.501v-27.41967c0,-7.58233 -4.6655,-9.331 -6.41417,-9.331c-1.74867,0 -7.58233,1.16817 -7.58233,9.331c0,1.16817 0,27.41967 0,27.41967h-18.0815v-50.16667h18.0815v7.00183c2.32917,-4.085 6.99467,-7.00183 15.74517,-7.00183c8.7505,0 15.75233,7.00183 15.75233,22.747z"
+                    ></path>
+                  </g>
+                </g>
+              </svg>
+            </a>
+          </div>
+        </div>
+      </footer>
+    </div>
+    <script>
+      AOS.init();
+    </script>
+    <script src="index.js"></script>
+  </body>
+</html>
