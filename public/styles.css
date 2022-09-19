@@ -879,6 +879,9 @@ video {
 .border-solid{
   border-style: solid;
 }
+.overflow-x-hidden {
+  overflow-x: hidden;
+}  
 
 .border-main-text{
   --tw-border-opacity: 1;
